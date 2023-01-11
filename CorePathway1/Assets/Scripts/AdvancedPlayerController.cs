@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class AdvancedPlayerController : MonoBehaviour
 {
-    float xSens;
-    float ySens;
+    public float xSens;
+    public float ySens;
 
     public Transform Orientation;
 
@@ -27,7 +27,7 @@ public class AdvancedPlayerController : MonoBehaviour
         xRotation = Mathf.Clamp(xRotation,-90f,90f);
 
         transform.rotation = Quaternion.Euler(xRotation, yRotation, 0f);
-        Orientation.transform = Quaternion.Euler(0f,yRotation,0f);
+        Orientation.rotation = Quaternion.Euler(0f,yRotation,0f);
     }
 
 }
