@@ -9810,10 +9810,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1868530183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22ece4c12a1fd5a45b416ca2d9098908, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e17ae31faa8b4a468e306dea4450c1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 1868530183}
+  arrow: {fileID: 1883565930291637659, guid: 082a28db6b19bd94a8fb024537752960, type: 3}
+  spawnTime: 0
+  spawnDelay: 1
+  destroyDelay: 100
 --- !u!1 &1891180552
 GameObject:
   m_ObjectHideFlags: 0
